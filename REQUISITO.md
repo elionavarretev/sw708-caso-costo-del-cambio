@@ -1,6 +1,6 @@
 # El requisito nuevo
 
-**No abras este archivo hasta que estén listos para empezar a cronometrar.**
+**Si llegaste acá antes de tiempo, cierra el archivo.** Ábranlo recién cuando estén sentados y listos para empezar a medir, porque el cronómetro arranca ahí. Si lo leen antes, los minutos dejan de medir la estructura y pasan a medir cuánto lo pensaron de antemano, y la comparación entre las dos versiones se cae.
 
 ---
 

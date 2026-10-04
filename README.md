@@ -27,7 +27,7 @@ Las dos deben terminar en `BUILD SUCCESS`. Si alguna no arranca, resuélvelo aho
 ## Qué vas a hacer
 
 1. Lee las dos versiones por encima, cinco minutos cada una. No corrijas nada.
-2. Abre `REQUISITO.md` **recién cuando estén listos para cronometrar**. Ahí está el cambio que tienen que implementar.
+2. El cambio que tienen que implementar está en `REQUISITO.md`. **Ábranlo recién cuando estén sentados y listos para empezar a medir, porque el cronómetro arranca ahí. Si lo leen antes, los minutos dejan de medir la estructura y pasan a medir cuánto lo pensaron de antemano, y la comparación entre las dos versiones se cae.**
 3. Impleméntalo primero en la versión A, con el reloj corriendo, hasta que las pruebas vuelvan a verde. Anota los cinco números.
 4. Haz lo mismo en la versión B, sin mirar lo que hicieron en A.
 5. Llena `cuadro-costo-del-cambio.md` y saca una conclusión que se apoye en los números.
