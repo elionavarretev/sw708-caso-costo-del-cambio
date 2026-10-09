@@ -23,7 +23,15 @@ Agrega al menos estas dos pruebas, en las dos versiones:
 1. Un alumno con dos equipos sin devolver pide un tercero y el sistema lo rechaza.
 2. Un préstamo sin motivo es rechazado.
 
-Y comprueba que las pruebas que ya existían siguen en verde. Si alguna se rompió, cuéntala: ese es el cuarto número del cuadro.
+Y comprueben que las pruebas que ya existían siguen en verde. Si alguna se rompió, cuéntenla: ese es el cuarto número del cuadro.
+
+### Sobre los archivos de pruebas
+
+Los archivos de pruebas **sí se tocan**. Ahí van las pruebas nuevas, y si el cambio modifica la firma de un método, las pruebas que ya existían se adaptan para que vuelvan a compilar.
+
+- **Adaptar** una prueba existente está permitido: cambiar la llamada para pasarle el dato nuevo, por ejemplo.
+- **Debilitarla** no: no se borra una prueba ni se le quita una comprobación para que pase. Al terminar, cada prueba antigua tiene que seguir verificando lo mismo que verificaba antes.
+- Cada prueba antigua que dejó de compilar o falló por el cambio **cuenta como una prueba rota**, aunque después la hayan arreglado. Anótenlas por separado en la versión A y en la versión B.
 
 ## Lo que no se pide
 
